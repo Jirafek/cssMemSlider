@@ -1,0 +1,12 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 95%;
+}
+img {
+    border-radius: 15px;
+}
