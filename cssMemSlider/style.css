@@ -15,7 +15,7 @@ header {
     max-width: 95%;
 }
 .active-slider {
-    background-image: url(./cssMemSlider/memes/meme1.jpg);
+    background-image: url(./memes/meme1.jpg);
     border-radius: 20px;
     width: 950px;
     height: 500px;
@@ -91,19 +91,19 @@ header {
 
 
 #slide1:checked ~ .container .wrapper .active-slider {
-    background-image: url(./cssMemSlider/memes/meme1.jpg);
+    background-image: url(./memes/meme1.jpg);
     animation-name: virtual;
 }
 #slide2:checked ~ .container .wrapper .active-slider {
-    background-image: url(./cssMemSlider/memes/meme2.jpg);
+    background-image: url(./memes/meme2.jpg);
     animation-name: virtual2;
 }
 #slide3:checked ~ .container .wrapper .active-slider {
-    background-image: url(./cssMemSlider/memes/meme3.jpg);
+    background-image: url(./memes/meme3.jpg);
     animation-name: virtual3;
 }
 #slide4:checked ~ .container .wrapper .active-slider {
-    background-image: url(./cssMemSlider/memes/meme4.jpg);
+    background-image: url(./memes/meme4.jpg);
     animation-name: virtual4;
 }
 
@@ -163,19 +163,19 @@ header {
         height: 400px;
     }
     #slide1:checked ~ .container .wrapper .active-slider {
-        background-image: url(./cssMemSlider/memes/meme1_m.jpg);
+        background-image: url(./memes/meme1_m.jpg);
         animation-name: virtual;
     }
     #slide2:checked ~ .container .wrapper .active-slider {
-        background-image: url(./cssMemSlider/memes/meme2_m.jpg);
+        background-image: url(./memes/meme2_m.jpg);
         animation-name: virtual2;
     }
     #slide3:checked ~ .container .wrapper .active-slider {
-        background-image: url(./cssMemSlider/memes/meme3_m.jpg);
+        background-image: url(./memes/meme3_m.jpg);
         animation-name: virtual3;
     }
     #slide4:checked ~ .container .wrapper .active-slider {
-        background-image: url(./cssMemSlider/memes/meme4_m.jpg);
+        background-image: url(./memes/meme4_m.jpg);
         animation-name: virtual4;
     }
     .bottom_items {
