@@ -46,21 +46,6 @@ img {
 } */
 
 
-.slide1 {
-    background-image: url(./cssMemSlider/memes/meme1.jpg); 
-}
-.slide2 {
-    background-image: url(./cssMemSlider/memes/meme2.jpg); 
-}
-.slide3 {
-    background-image: url(./cssMemSlider/memes/meme3.jpg); 
-}
-.slide4 {
-    background-image: url(./cssMemSlider/memes/meme4.jpg); 
-}
-.slide5 {
-    background-image: url(./cssMemSlider/memes/meme5.jpg);
-}
 
 .container .wrapper .controls {
     margin-left: 826px;
@@ -71,7 +56,7 @@ img {
 	display: inline-block;
     background-color: #7faae8;
 	height: 11px;
-	margin: 30px 0px 0 16px;
+	margin: 0px 0px 0 16px;
 	position: relative;
 	width: 11px;
 	-webkit-border-radius: 50%;
@@ -135,4 +120,40 @@ label:hover {
 }
 #slide4:checked ~ .container .wrapper .active-slider {
     background-image: url(./cssMemSlider/memes/meme4.jpg);
+}
+
+#slide1:checked ~ .container .wrapper .texts .text2, .text3, .text4 {
+    display: none;
+}
+#slide1:checked ~ .container .wrapper .texts .text1 {
+    display: inline;
+}
+
+#slide2:checked ~ .container .wrapper .texts .text1, .text3, .text4 {
+    display: none;
+}
+#slide2:checked ~ .container .wrapper .texts .text2 {
+    display: inline;
+}
+
+#slide3:checked ~ .container .wrapper .texts .text1, .text2, .text4 {
+    display: none;
+}
+#slide3:checked ~ .container .wrapper .texts .text3 {
+    display: inline;
+}
+
+#slide4:checked ~ .container .wrapper .texts .text1, .text2, .text3 {
+    display: none;
+}
+#slide4:checked ~ .container .wrapper .texts .text4 {
+    display: inline;
+}
+
+
+.text-item {
+    color: white;
+}
+.texts {
+    margin-top: 30px;
 }
